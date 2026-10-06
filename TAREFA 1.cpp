@@ -13,16 +13,11 @@ int main (){
 	scanf("%f" , &b);
 	printf("\nValor de C: ");
 	scanf("%f" , &c);
-		if (a == 0 or b == 0 or c == 0)
+		if (a == 0)
 		printf("\nInvalido xDDD");	
 		else{
 		float delta;
 		delta = (pow(b , 2)- 4 * a * c);
 		printf("Valor de delta: %.2f" , delta);
-		float raizdelta;
-		raizdelta = (sqrt(delta));
-		float raizum;
-		raizum = (-(b) + raizdelta );
-		printf("A primeira raiz eh "%.2f " ,raizum)
 		}
 }
