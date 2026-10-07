@@ -12,13 +12,6 @@ int main() {
 	printf("\nValor de B: ");
 	scanf("%f", &b);
 	printf("\nValor de C: ");
-	scanf("%f" , &c);
-		if (a == 0)
-		printf("\nInvalido xDDD");	
-		else{
-		float delta;
-		delta = (pow(b , 2)- 4 * a * c);
-		printf("Valor de delta: %.2f" , delta);
 	scanf("%f", &c);
 	if (a == 0)
 		printf("\nInvalido xDDD");
@@ -27,7 +20,7 @@ int main() {
 		delta = (pow(b, 2) - 4 * a * c);
 		printf("\nValor de delta: %.2f ", delta);
 		if (delta < 0)
-			printf("\nNao existem raizes reais nesta equacao");
+			printf("\nNão existem raizes reais nesta equacao");
 		else if (delta == 0) {
 			printf("\nExiste apenas 1 raiz nesta equacao");
 			float raizdelta;
@@ -38,7 +31,7 @@ int main() {
 			numerador = -(b)+raizdelta;
 			denominador = 2 * a;
 			x1 = numerador / denominador;
-			printf("\nA raiz desta equacao eh %.2f ", x1);
+			printf("\nA raiz desta equação eh %.2f ", x1);
 		}
 		else {
 			float raizdelta;
@@ -57,4 +50,4 @@ int main() {
 		}
 	}
 	return 0;
-}}
+}
